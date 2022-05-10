@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+    color: grey;
+}
+
+header{
+    background-color: white;
+    height: 80px;
+    padding: 10px;
+}
+
+.logo{
+    height: 60px;
+    margin-right: 10px;
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+    display: inline;
+}
+
+.container{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    margin: 40px auto;
+    border-radius: 8px;
+}
