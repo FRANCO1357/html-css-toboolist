@@ -30,11 +30,17 @@ h1{
 }
 
 .container-header{
-    border: 1px solid black;
+    border-bottom: 2px solid lightgray;
+}
+
+.container-container-header{
+    width: 600px;
+    margin: 0 auto;
+    padding: 5px;
     }
 
 .buttons{
-    margin: 10px 30px;
+    margin:  5px 0;
 }
 
 #add-task{
@@ -42,7 +48,7 @@ h1{
     color: white;
     font-size: 16px;
     border-radius: 5px;
-    border: none;
+    border: 2px solid dodgerblue;
     padding: 5px 10px;
 }
 
@@ -55,3 +61,21 @@ h1{
     padding: 5px 10px;
 }
 
+.checklist{
+    color: rgb(60, 60, 60);
+    width: 600px;
+    margin: 0 auto;
+}
+
+ul{
+    font-size: 20px;
+    list-style-position: inside;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li{
+    font-size: 14px;
+    margin-top: 5px;
+}
