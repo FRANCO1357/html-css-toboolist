@@ -1,3 +1,5 @@
+
+/* generics */
 body{
     margin: 0;
     background-color: lightgray;
@@ -6,6 +8,7 @@ body{
     font-weight: 300;
 }
 
+/* header */
 header{
     background-color: white;
     height: 80px;
@@ -15,20 +18,24 @@ header{
 .logo{
     height: 60px;
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 h1{
     color: black;
     font-size: 40px;
     display: inline;
+    vertical-align: middle;
 }
 
+/* container */
 .container{
     width: 700px;
-    height: 500px;
     background-color: white;
     margin: 40px auto;
+    padding-bottom: 20px;
     border-radius: 8px;
+    box-shadow: 10px 10px 20px #888888;
 }
 
 .container-header{
@@ -42,9 +49,10 @@ h1{
     }
 
 .buttons{
-    margin:  5px 0;
+    margin: 20px 0;
 }
 
+/* checklist */
 #add-task{
     background-color: dodgerblue;
     color: white;
@@ -52,6 +60,7 @@ h1{
     border-radius: 5px;
     border: 2px solid dodgerblue;
     padding: 5px 10px;
+    text-decoration: none;
 }
 
 #add-section{
@@ -61,6 +70,7 @@ h1{
     border-radius: 5px;
     border: 2px solid lightgray;
     padding: 5px 10px;
+    text-decoration: none;
 }
 
 .checklist{
@@ -85,59 +95,46 @@ li{
     padding: 5px 0;
 }
 
-.editorial{
-    background-color: dodgerblue;
+.box{
     color: white;
     padding: 5px 10px;
     font-size: 10px;
     border-radius: 8px;
+}
+
+.editorial{
+    background-color: dodgerblue;
 }
 
 .q1-goals{
     background-color: rgba(151, 39, 245, 0.8);
-    color: white;
-    padding: 5px 10px;
-    font-size: 10px;
-    border-radius: 8px;
 }
 
 .recruiting{
     background-color: rgba(41, 185, 110, 0.8);
-    color: white;
-    padding: 5px 10px;
-    font-size: 10px;
-    border-radius: 8px;
 }
 
 .mobile{
     background-color: rgba(255, 138, 0, 0.8);
-    color: white;
-    padding: 5px 10px;
-    font-size: 10px;
-    border-radius: 8px;
 }
 
 .website{
     background-color: rgba(203, 76, 161, 0.8);
-    color: white;
-    padding: 5px 10px;
-    font-size: 10px;
-    border-radius: 8px;
 }
 
 .sales{
     background-color: rgba(156, 207, 42, 0.8);
-    color: white;
-    padding: 5px 10px;
-    font-size: 10px;
-    border-radius: 8px;
 }
 
 .green-icon{
     color: green;
+    border: 1px solid green;
+    border-radius: 50%;
 }
 
 .red-icon{
     color: red;
+    border: 1px solid red;
+    border-radius: 50%;
 }
 
