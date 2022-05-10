@@ -2,6 +2,8 @@ body{
     margin: 0;
     background-color: lightgray;
     color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 header{
@@ -69,6 +71,7 @@ h1{
 
 ul{
     font-size: 20px;
+    font-weight: 700;
     list-style-position: inside;
     margin-left: 0;
     padding-left: 0;
@@ -77,5 +80,64 @@ ul{
 
 li{
     font-size: 14px;
+    font-weight: 300;
     margin-top: 5px;
+    padding: 5px 0;
 }
+
+.editorial{
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 8px;
+}
+
+.q1-goals{
+    background-color: rgba(151, 39, 245, 0.8);
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 8px;
+}
+
+.recruiting{
+    background-color: rgba(41, 185, 110, 0.8);
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 8px;
+}
+
+.mobile{
+    background-color: rgba(255, 138, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 8px;
+}
+
+.website{
+    background-color: rgba(203, 76, 161, 0.8);
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 8px;
+}
+
+.sales{
+    background-color: rgba(156, 207, 42, 0.8);
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 8px;
+}
+
+.green-icon{
+    color: green;
+}
+
+.red-icon{
+    color: red;
+}
+
